@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onLoad="set()">
+
+<form id="settings">
+<table>
+<tr>
+<th>rad</th>
+<th>kr1</th>
+<th>kr2</th>
+<th>kr3</th>
+<th>k1</th>
+<th>k2</th>
+<th>k3</th>
+<th>dt</th>
+<th>cirnum</th>
+<th>kv</th>
+<th>ve</th>
+<th>vmax</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<tr>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="text" size="5"></th>
+<th><input type="button" value="stop" onclick="(function(){flag=2;})()"></th>
+<th><input type="button" value="start" onclick="start()"></th>
+<th><input type="button" value="restart" onclick="restart()"></th>
+</tr>
+</table>
+
+</form>
+<canvas id="loop" width="1250" height="600"></canvas>
+</body>
+</html>
